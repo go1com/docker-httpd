@@ -12,6 +12,7 @@ RUN apk add --no-cache ca-certificates && \
         -e 's/#LoadModule\ proxy_module/LoadModule\ proxy_module/' \
         -e 's/#LoadModule\ mod_proxy_connect/LoadModule\ mod_proxy_connect/' \
         -e 's/#LoadModule\ proxy_http_module/LoadModule\ proxy_http_module/' \
+        -e 's/#LoadModule\ proxy_http2_module/LoadModule\ proxy_http2_module/' \
         -e 's/#LoadModule\ substitute_module/LoadModule\ substitute_module/' \
         -e 's/#LoadModule\ expires_module/LoadModule\ expires_module/' \
         -e 's/#LoadModule\ logio_module/LoadModule\ logio_module/' \
